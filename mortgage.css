@@ -1,0 +1,158 @@
+.main{
+	background-color: grey;
+	height: auto;
+	width:1080px;
+	overflow:auto;
+}
+
+.leftSection{
+	background-color: #e6e6e6;
+    float:left; 
+	width:290px;
+	height:auto;
+	margin:3px;
+	
+}
+.heading{
+	color:green;
+	letter-spacing:5px;
+	word-spacing:3px;
+	font-size:25px;
+	font-weight:bold;
+}
+#leftField{
+	margin:50px auto 50px auto;
+	
+}
+span input{
+	margin:60px auto 60px auto;
+	margin-left:70px;
+	text-align:center;
+	background-color:#33ff99;
+	border: solid black 2px;
+}
+label{
+	display:inline-block;
+	width:160px;
+	text-align:left;
+	vertical-align:middle;
+	color:#000000;
+	font-weight:bold;
+	margin-bottom:15px;
+}
+ label input {
+	display:block;
+	clear:both;
+	vertical-align:left;
+	margin-bottom:15px;
+}
+
+.selections  {
+		text-align:center;
+		
+}
+#hlight{
+	color:blue;
+}
+
+.midSection{ 
+	
+	float: left;
+	width:410px;
+	height:auto;
+	vertical-align:middle;
+	background-color:#e6e6e6;
+	border:solid black 1px;
+	border-collapse:collapse;
+	margin:2px;
+}
+
+#buttonTable{
+	border:hidden;
+}
+#buttonTable tr td{
+	border:hidden;
+	padding:5px;
+}
+
+.rightSection{ 
+	
+	float: left;
+	width:360px;
+	height:auto;
+	background-color:#e6e6e6;
+	border:solid black 1px;
+	margin:3px;
+}
+.rightSection fieldset{
+	width:320px;
+	margin:5px auto 0px auto;
+}
+#Calbutton{
+	margin:20px auto 20px 80px;
+	background-color:#33ff99;
+	border:solid black 2px;
+}
+
+p{
+	margin-left:5px;
+}
+#errors{
+	height:405px;
+	border:outset;
+	border-color:#009933;
+	width:340px;
+	margin:10px auto 10px auto;
+	font-size:14px;
+}
+footer{
+	border:hidden;
+	background-color:#000000;
+	text-align:center;
+	width:1080px;
+	color:#ffffff;
+	font-size: 15px;
+}
+
+footer nav ul{
+	 margin: 10px auto 10px auto;
+     padding: 0;
+}
+footer nav ul li{
+	display: inline;
+	color: #000000;
+	font-size:12px;
+	margin:0px 50px 0px 50px;
+}
+a{
+	text-decoration:underline;
+	
+}
+a:visited{
+	color:#006600;
+}
+a:hover{
+	color:#ff9900;
+	
+}
+a:active{
+	color:#4d0000;
+}
+
+
+fieldset legend{
+	border:ridge;
+	border-color:red;
+	background-color:#33ff99;
+	border: solid black 2px;
+}
+
+div fieldset{
+	border:outset;
+	border-color:#009933;
+	margin-top:3px;
+}
+hr{
+		color:red;
+		
+}

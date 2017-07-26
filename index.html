@@ -1,129 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>
-	Assignment - 2 Home Page
-</title>
-	 <meta charset = "utf-8"/>
-	 <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-01/normalize.css"  type="text/css" media="screen" /> 
-
-    <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-01/master.css" type="text/css" media="screen" /> 
-
-    <link rel="stylesheet" href="css/sitecss.css" type="text/css" media="screen" /> 
-	
-	<link rel="stylesheet" href="css/normalize.css"   type="text/css" media="screen" /> 
-	 
-	 
-</head>
-<body>
-			
-			<header >
-				
-				<h2 class="head_text">INT222 (Assignment-2) Home Page</h2>
-				
-			</header>
-			
-			<nav >
-				<ul>
-					<li><a href="gallery.html">Gallery</a></li>
-
-					<li><a href="audio.html">Audio</a></li>
-
-					<li><a href="video.html">Video</a></li>
-
-					<li><a href="tables.html">Tables</a></li>
-
-					<li><a href="guestbook/index.html">Guestbook</a></li>
-					
-					<li><a href="extra/index.html">Extra</a></li>
-				</ul>
-			</nav>
-			<div class='main'>
-			<div class='inpage'>
-				not for all pages
-			</div>
-				<div class="section">
-					<article>
-						<header>
-							<hgroup>
-									<h3 class="hello">Hello Everyone</h3>
-							</hgroup>
-						</header>
-					</article>
-					<article>
-						<header>
-							<hgroup>
-									<h3 class="description">Who and Why they are...</h3>
-							</hgroup>			
-						</header>
-						<p>
-						write here
-						</p>
-					</article>
-					<article>
-						<header>
-							<hgroup>
-									<h4 class="links_01">Below are the list of links for important web design materials</h4>
-							</hgroup>
-						</header>
-									<ul>
-										<li>HTML5
-											<ol>
-												<li></li>
-												<li></li>
-											</ol>
-										</li>
-										<li>CSS3
-											<ol>
-												<li></li>
-												<li></li>
-											</ol>
-										</li>
-										<li>JavaScript
-											<ol>
-												<li></li>
-												<li></li>
-											</ol>
-										</li>
-									</ul>
-						
-					</article>
-					<article>
-						<header>
-							<hgroup>
-								<h4>Declaration<h4>
-							</hgroup>
-						</header>
-						<pre>
-     I declare that this assignment is wholly my own work
- in accordance with Seneca Academic Policy. I also declare 
- that I did not copy any part of this assignment manually/
- electronically from any other source(including web sites)
- except for the information supplied by the INT222
- instructors and / or made available in this assignment 
- for my use; nor have I distributed any part(s) of the
- assignment to other students. 
-
-	Signed : ___________________ 
-
-	Date : ____________________
-						</pre>
-					</article>
-				</div>
-				
-				
-				<div class='aside' >
-					<img src="social-media.png"/>
-				</div>
-			</div>
-			<footer >
-				
-				<script>
-					var dt=new Date(document.lastModified);   // Get document last modified date
-
-					document.write('This page was last updated on '+dt.toLocaleString()) 
-				</script>
-			</footer>
-		
-</body>
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Your surname</title>
+  <link   href='css/normalize.css' rel='stylesheet'  type='text/css' />
+  <link   href='css/mortgage.css' rel='stylesheet'  type='text/css' />    <link   href='css/normalize.css' rel='stylesheet'  type='text/css' />
+  <script src='javascript/mortgage.js' type='text/javascript'> </script>  
+ </head>
+ <body>	<div class ="main">			<div class="leftSection">					<p class="heading">Mortgage <br/>				  &nbsp&nbsp&nbsp  calculation</p>				  <hr />				<form name="mortgage" id="mortgage"					action="https://zenit.senecac.on.ca/~emile.ohan/cgi-bin/assign3.cgi"					method="post"					onsubmit="return formValidation();">							<fieldset id="leftField">												<legend>Mortgage Details</legend>												<label for ="amortization" >Amortization</label>						<input type="text" name="amortization" id="amortization" maxlength="2" size="3" /> 												<label for ="intRate" >Interest Rate</label>						<input type="text" name="intRate" id="intRate" maxlength="6" size="7" /> 												<label for ="mortYear" >Year</label>						<input type="text" name="mortYear" id="mortYear" maxlength="4" size="5" /> 												<label for ="mortMonth" >Month</label>						<input type="text" name="mortMonth" id="mortMonth" maxlength="2" size="4" /> 											</fieldset>						<hr />						<span>						<input type="submit" value="submit information"/> 						</span>			</div>			<div class ="midSection">								<fieldset>						<legend>Personal Information</legend>						<label for ="userId">Client ID</label>						<input type="text" name="userId" id="userId" maxlength="10" size="10" /> 							<label for ="client" >Client Name</label>						<input type="text" name="client" id="client"  /> 					</fieldset>					<fieldset>						<legend>Financial/property Information</legend>												<label for ="propValue" >Property Value</label>						<input type="text" name="propValue" id="propValue" maxlength="6" size="7" /> 												<label for ="downPay" >Down Pay</label>						<input type="text" name="downPay" id="downPay" maxlength="6" size="7" /> 												<fieldset class="selections">												<legend>Income and Location</legend>												<select  name="income" id="income" size="4" >								<option value="" id="hlight">Income Range</option>								<option value="2500" >$2000 - $3000 </option>								<option value="3500">$3001 - $4000 </option>								<option value="4500">$4001 - $5000 </option>								<option value="5500">$5001 - $6000 </option>								<option value="6500">$6001 - $7000 </option>								<option value="7500">$7001 - $8000 </option>								<option value="8500">$8001 - $9000 </option>								<option value="9500">$9001 - $10,000 </option>								<option value="15000">$10,001 - $20,000 </option>								<option value="More than 20000">$20,001 - up </option>							</select>														<select name="propLocation" id="propLocation" size="4" >								<option value="" id="hlight" >Location</option>								<option value="Scarborough">Scarborough </option>								<option value="Whitby">Whitby </option>								<option value="Oshwa">Oshwa </option>								<option value="Kitchener">Kitchener </option>								<option value="Missisuaga">Missisuaga </option>							</select>						</fieldset>						<label>Property Type</label>						<table id="buttonTable">						<tr>						<td><input type="radio" name="propDetails"  value = "Land" />Land</td>						<td><input type="radio" name="propDetails"  value = "WareHouse" />WareHouse</td>						<td><input type="radio" name="propDetails"  value = "House" />House</td>						</tr>												<tr>						<td><input type="radio" name="propDetails"  value = "Condominium" />Condominium</td>						<td><input type="radio" name="propDetails"  value = "Restraurant" />Restraurant</td>						<td><input type="radio" name="propDetails"  value = "parking Lot" />Parking Lot</td>						</tr>						</table>						</fieldset>											<fieldset>							<legend>special Instruction</legend>												<textarea name="comments" id="comments" rows="2" cols="30" ></textarea> 											</fieldset>			</div>						<div class="rightSection">					<fieldset>						<legend>Monthly payment</legend>						<input type="text" name="payment" id="payment" maxlength="8" size="8"  readonly="readonly"/> 												<input type="button" value='Calculate Monthly Payment' id="Calbutton"							onclick='calculatePayment();' /> 										</fieldset>																		<input type="hidden" name="jsActive" id="jsActive" value="N" /> 												<input type="hidden" name="lastName" id="lastName" value="Mahmud" /> 												<input type="hidden" name="studentId" id="studentId" value="068862143" /> 												<input type="hidden" name="zenitAccount" id="zenitAccount" value="~int222_161f14" /> 							</form>						<div id="errors">						<p id="ID"> </p>						<p id="name"> </p>						<p id="pval"> </p>						<p id="downP"> </p>						<p id="incomeRange"> </p>						<p id="location"> </p>						<p id="ptype"> </p>						<p id="yyyy"> </p>						<p id="mm"> </p>						<p id="rate"> </p>						<p id="amort"> </p>						</div>			</div>	</div>	<footer>						<nav>				<ul>					<li>						<a href="https://zenit.senecac.on.ca/~int222_161f14">My zenit Account</a>					</li>					<li>						<a href="honesty.html">Honesty</a>					</li>					<li>						<a href="css/mortgage.css">Css</a>					</li>					<li>						<a href="javascript/mortgage.js">JavaScript</a>					</li>				</ul>			</nav>			<script>			var dt=new Date(document.lastModified);   // Get document last modified date			document.write('This page was last updated on '+dt.toLocaleString()) 			</script>	</footer>
+ </body>
 </html>
