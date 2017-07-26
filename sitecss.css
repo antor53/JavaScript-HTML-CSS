@@ -1,0 +1,50 @@
+/********************************************************************
+*   this section is same for all pages                              *
+*                                                                   *
+********************************************************************/
+.head_text{
+	text-align:center;
+}
+
+a{
+	padding-right:85px;
+}
+a:visited{
+	color:violet;
+}
+a:hover{
+	font-size:px;
+	color:red;
+}
+a:active{
+	color:red;
+}
+
+.main{
+	
+	height: auto;
+	width:1000px;
+	overflow:auto;
+}
+.inpage{
+	background-color: #b3cccc;
+	height:auto;
+	width:90px;
+	float:left;
+}
+
+.section{
+	background-color:  #ace600;
+    float:left; 
+	width:620px;
+	
+	height:auto;
+}
+
+.aside{ 
+	
+	float: left;
+	width:260px;
+	height:auto;
+}
+
