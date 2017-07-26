@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8" />
+ <title>INT222</title>
+ <script>
+
+ var e1="", e2="", e3="", e4="", e5="", e6="", e7="", e8="", e9="";
+ // Your code goes here
+ e1=prompt("Please, Enter your name in lower case " ,"lower case");
+  e5 =(e1.charAt(0).toUpperCase()+e1.slice(1));
+  alert(e5+"\nplease Enter a number from 1 to 9 inclusive");
+  e2 = prompt("Enter your number here", "Any number from 1 -9 inclusive");
+  e3 = prompt("Enter 5 numbers separated by commas");
+  e4 = prompt("Enter 3 colors separated by commas");
+  e6 = e3.split(' ');
+  alert(e6);
+  e7 = e4.split(' ');
+  alert(e7);
+  table(e2);
+  function table(times){
+  document.write("<table>");
+  document.write("<caption> the number in e2 is "+ e2 +" </caption>");
+  for(var i=1;i<=10;i++){
+  document.write("<tr>");
+  document.write("<td>"+e2+"</td>");
+  document.write("<td>x</td>");
+  document.write("<td>"+i+"</td>");
+  document.write("<td>=</td>");
+  document.write("<td>"+e2*i+"</td>");
+  document.write("</tr>")
+  }
+  document.write("</table>");
+  }
+  
+	e8 = 0;
+ for( var j=0; j<5; j++){
+	e8=e6;
+	e8 += e6[j];
+ }
+ alert(e8);
+ 
+
+ for( var k=0; k<3; k++){
+	e9 =e7[k];
+	
+ }
+ alert(e9.concate(+"\n"+e7));
+ 
+ 
+ 
+ </script>
+ </head>
+ <body>
+ </body>
+</html>

@@ -1,0 +1,245 @@
+/* *********************************************************
+   These are the styles common to all Assignment #1 pages
+   ********************************************************* */
+   body{
+	   
+	 background-color: #ace600;
+   }
+
+   footer {
+	   
+	   color: #000000;
+   }
+   #pageHeader{
+	   text-align:center;
+	   border:hidden;
+	   background-color:#ff3300;
+	   width:500px;
+	   margin:0px auto 0px auto ;
+   }
+  
+/* *********************************************************
+   These are the styles used in the Assignment #1 Home page
+   ********************************************************* */ 
+	#visit_link{
+		border:1px;
+		margin-left:300px;
+		padding:10px;
+	}
+
+
+/* *********************************************************
+   These are the styles used in the Profile page
+   ********************************************************* */
+
+	#paragraph{
+		
+		border:hidden;
+		width:500px;
+		margin:0px auto 0px auto;
+	}
+	h1.name{
+		text-align:center;
+	}
+
+/* *********************************************************
+   These are the styles used in the Lists  page
+   ********************************************************* */
+	dt{
+		font-weight:bold;
+	}
+	ul.unorder{
+		color: #996600;
+		list-style-type:square;
+	}
+	ol.order{
+		color: #ff531a;
+		list-style-type:lower-alpha;
+	}
+	ul.nested{
+		color: #330080;
+		list-style-type:circle;
+		
+	}
+	ul.nested ol{
+		
+		list-style-type:lower-roman;
+	}
+	dl.definition{
+		color: 	 #c61aff;
+		
+	}
+	#list{
+		border:hidden;
+		width:700px;
+		margin:0px auto 0px auto;
+	}
+	
+
+/* *********************************************************
+   These are the styles used in the Text  page
+   ********************************************************* */
+	p.text1{
+		letter-spacing:3px;
+	}
+	p.text2{
+		text-decoration:underline;
+	}
+	p.text3{
+		word-spacing:30px;
+	}
+	p.text4{
+		text-indent:40px;
+	}
+	
+	p.text5{
+		background-color: #000099;
+		color:white;
+	}
+	p.text6{
+		font-family:"Times New Roman",serif;
+		font-size:14px;
+		font-weight:bold;
+		font-variant:small-caps;
+	}
+	
+	p.text7 span{
+		
+		font-style:italic;
+	}
+		
+	
+	
+
+
+/* *********************************************************
+   These are the styles used in the table  page
+   ********************************************************* */
+	#tbl01{
+		border-style:solid;
+		border-color:black;
+		border-width:4px;
+		width:500px;
+		border-collapse:separate;
+		border-spacing:10px;
+		margin:0px auto 0px auto;
+		
+	}
+	#tbl01  tr  td{
+		border-style:solid;
+		border-width:2px;
+		border-color:black;
+		height:60px;
+		padding:3px;	
+	}
+	#tbl01 th{
+		border-style:solid;
+		border-width:2px;
+		border-color:black;
+		
+	}
+	#tbl02{
+		border-style:solid;
+		border-color:black;
+		border-width:4px;
+		width:500px;
+		border-collapse:separate;
+		border-spacing:10px;
+		margin:5px auto 0px auto;
+	}
+	#tbl02  tr  td{
+		border-style:solid;
+		border-width:2px;
+		border-color:black;
+		height:60px;
+		
+	}
+	#tbl02 th{
+		border-style:solid;
+		border-width:2px;
+		border-color:black;
+		
+	}
+	#tbl03{
+		border-style:solid;
+		border-color:black;
+		border-width:8px;
+		width:300px;
+		border-collapse:separate;
+		border-spacing:10px;
+		margin:5px auto 0px auto;
+		
+		
+	}
+	#tbl03  tr  td{
+		border-style:solid;
+		border-width:2px;
+		border-color:black;
+		height:60px;
+		padding:3px;
+		
+	}
+	
+	#tbl03 th{
+		border-style:solid;
+		border-width:2px;
+		border-color:black;
+		text-align:center;
+		
+	}
+	#tbl03 caption{
+		caption-side:bottom;
+	}
+	 #tbl01 tr td.m1{
+		 
+	 }
+	 td.c1{
+		 vertical-align:top;
+		 
+	 }
+	 td.c3{
+		 vertical-align:bottom;
+	 }
+	 td.c4{
+		 vertical-align:top;
+		 text-align:center;
+	 }
+	  td.c5{
+		 vertical-align:middle;
+		 text-align:center;
+	 }
+	   td.c6{
+		 vertical-align:bottom;
+		 text-align:center;
+	 }
+	   td.c7{
+		 vertical-align:top;
+		 text-align:right;
+	 }
+	  td.c8{
+		 vertical-align:middle;
+		 text-align:right;
+	 }
+	 td.c9{
+		 vertical-align:bottom;
+		 text-align:right;
+	 }
+
+
+
+/* *********************************************************
+   These are the styles used in the Contact page
+   ********************************************************* */
+
+   #contact{
+	   
+	   text-align:center;
+	
+	   
+   }
+
+
+/* *********************************************************
+   These are the styles used in the Honesty page
+   ********************************************************* */
+

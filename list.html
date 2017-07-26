@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>assignment 1 - list.html</title>
+    <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-01/normalize.css"  type="text/css" media="screen" /> 
+    <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-01/master.css" type="text/css" media="screen" /> 
+    <link rel="stylesheet" href="css/mycss.css" type="text/css" media="screen" /> 
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../">Main Home</a></li>
+        <li><a href="index.html">Assignment 1 Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="list.html">Lists with CSS</a></li>
+        <li><a href="text.html">Text with CSS</a></li>
+        <li><a href="table.html">Tables with CSS</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="honesty.html">Honesty</a></li>
+        <li><a href="css/mycss.css">CSS Used</a></li>
+      </ul>
+    </nav>
+    <div id="content">
+      <div id="mcontent">	  <div id="list">
+        <header>
+          <p id="pageHeader">Lists With CSS</p>
+        </header>
+        <!-- Your code goes here -->			<p>My Favorite Writers</p>		<ul class="unorder">			<li>Dan Brown</li>			<li>Mario puzo</li>			<li>Virginia C. Andrews</li>		</ul>		<hr />		<p>Least Favorite Foods</p>		<ol class="order">			<li>Potato fries</li>			<li>Beef bugget</li>			<li>Chicken Wings</li>		</ol>		<hr />		<!--nested list -->		<p>Best Movies I saw so far</p>		<ul class="nested">		<li>Shawshank Redemption</li>		<li>Undisputed			<ol>				<li>Undisputed 1</li>				<li>Undisputed 2</li>				<li>Undisputed 3</li>			</ol>		</li>		<li>Titanic</li>		</ul>		<hr />		<p>Favorite Qoutes</p>		<dl class="definition">			<dt>Mohammad (PUBH) the prophet</dt>				<dd>If you do not feel ashamed of anything, then you can do whatever you like.</dd>			<dt>Abraham Lincoln</dt>					<dd>I walk slowly, but I never walk backwards.</dd>			<dt>Andy Dufresne, from movie Shawshank redemption</dt>				<dd>Hope is a good thing, parheps best of the things. And No good thing ever dies.</dd>		</dl>		
+	
+
+		</div>
+        <!-- Your code ends here -->
+      </div>
+    </div>
+    <!-- Defining Footer -->
+    <footer>
+        <script>
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+dt.toLocaleString()) 
+        </script>
+    </footer>
+  </body>
+</html>

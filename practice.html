@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="UTF-8" />
+   <title>INT222</title>
+ </head>
+ <body>
+  <script>
+    var ident=1;
+    document.write("<table>");
+    document.write(" <caption>2 times table</caption>");
+    while (ident <= 12) {
+        document.write(" <tr>");
+        document.write("  <td>2</td>");
+        document.write("  <td>x</td>");
+        document.write("  <td>" + ident   + "</td>");
+        document.write("  <td>=</td>");
+        document.write("  <td>" + 2*ident + "</td>");
+        document.write(" </tr>");
+        ident++;
+    }
+    document.write("</table>");
+  </script>
+ </body>
+</html>
